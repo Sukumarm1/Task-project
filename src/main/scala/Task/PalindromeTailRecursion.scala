@@ -12,6 +12,9 @@ object PalindromeTailRecursion extends  App {
 
     if(s.charAt(0).toLower == s.charAt(s.length - 1).toLower)
       verificPalindromo(s.substring(1,s.length -1 ))
+    //Substring -- Returns a string that is a substring of this string.
+    // The substring begins at the specified beginIndex and extends to the character at index endIndex - 1.
+    // Thus the length of the substring is endIndex-beginIndex.
       else
         "not palindrome"
   }

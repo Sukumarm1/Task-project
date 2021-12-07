@@ -6,5 +6,5 @@ object SumOfNum extends App {
 
     if(num ==0)0 else (num %10 ) + sum(num/10)
   }
-println(sum(523))
+println(sum(523 ))
 }

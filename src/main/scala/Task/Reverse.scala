@@ -7,6 +7,6 @@ object Reverse extends App {
       yield s(i-1)).mkString
   }
 
-  println(reverse("Sukumar is on call"))
+  println(reverse("123456789"))
 
 }
